@@ -1,43 +1,50 @@
 body {
-    background-color: rgb(240, 245, 248);
+    background-color: #f8f5f9f3;
     padding: 15px;
-    margin: 10px;
+    margin: auto;
     font-family: sans-serif system-ui, Arial, Helvetica, sans-serif;
 } 
+
+.recipe-page {
+    border: 1px ridge;
+    padding: 20px;
+    margin: auto;
+    width: fit-content;
+}
+
 .heading {
-    margin-bottom: 20px;
+    margin: 15px auto;
 }
 
 .recipe {
     letter-spacing: 1px;
+    margin-top: 29px;
+    margin-bottom: 10px;
 }
 
 .gmp {
     letter-spacing: 0.7px;
 }
 
-th, td {
-    padding: 15px 10px 15px 0px;
-    text-align: left;
-    margin: 0;
-  }
-
 .images {
-    height: 450px;
-    width: 450px;
-    border: 4px solid pink;
+    height: 330px;
+    width: 365px;
+    border: 3px inset #E4DCF5;
     padding: 20px;
-    margin: 5px;
+    margin: 5px -40px ;
     border-radius: 6px;
+   
+    
 }
 
 .images2 {
-    height: 300px;
-    width: 450px;
-    border: 3px solid pink;
+    height: 230px;
+    width: 365px;
+    border: 3px inset #E4DCF5;
     padding: 20px;
-    margin: 5px;
+    margin: 5px -40px ;
     border-radius: 6px;
+
 }
 
 ul {
@@ -54,8 +61,51 @@ li {
 }
 
 .about {
-    background-color: rgb(228, 220, 245);
+    background-color: #E4DCF5;
     display: block;
     line-height: 25px;
     padding: 10px;
+    width: 390px;
+}
+
+.lastp {
+    margin: 20px 0px;
+    letter-spacing: 0.3px;
+}
+
+.table {
+    margin: 0;
+    border: 1px solid;
+    padding: 20px;
+    width: 410px;
+    
+}
+
+th, td {
+    padding: 15px 10px 15px 0px;
+    text-align: left;
+    margin: 0;
+    border: 1px solid black;
+}
+
+tr:hover {
+    cursor: pointer;
+    background-color: #9895958e;
+}
+
+th {
+    background-color: #E4DCF5;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+@media only all and (max-width: 600px) {
+    * {
+        max-width: 500px;
+        min-width: 150px;
+       
+}
 }
